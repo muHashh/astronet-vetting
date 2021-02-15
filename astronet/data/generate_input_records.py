@@ -86,7 +86,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 
-from astronet.data import preprocess
+from data import preprocess
 from light_curve_util.median_filter import SparseLightCurveError
 # import warnings
 # warnings.filterwarnings("error")

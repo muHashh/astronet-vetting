@@ -25,9 +25,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import tensorflow as tf
-from astronet import models
-from astronet.util import config_util
-from astronet.util import configdict
+import models
+from util import config_util
+from util import configdict
 import glob
 from collections import defaultdict
 

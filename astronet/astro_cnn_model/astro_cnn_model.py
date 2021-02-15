@@ -48,7 +48,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from astronet.astro_model import astro_model
+from astro_model import astro_model
 
 
 class AstroCNNModel(astro_model.AstroModel):

@@ -3,7 +3,7 @@ from __future__ import division
 from __future__ import print_function
 
 from light_curve_util import find_secondary as fs
-from astronet.data import preprocess
+from data import preprocess
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np

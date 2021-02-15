@@ -25,11 +25,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
 
-from astronet import models
-from astronet.data import preprocess
-from astronet.util import config_util
-from astronet.util import configdict
-from astronet.util import estimator_util
+import models
+from data import preprocess
+from util import config_util
+from util import configdict
+from util import estimator_util
 
 parser = argparse.ArgumentParser()
 

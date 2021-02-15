@@ -24,8 +24,8 @@ from absl import flags
 import numpy as np
 import tensorflow as tf
 
-from astronet.ops import dataset_ops
-from astronet.util import configdict
+from ops import dataset_ops
+from util import configdict
 
 FLAGS = flags.FLAGS
 
